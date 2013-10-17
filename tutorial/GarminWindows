@@ -1,0 +1,15 @@
+How to get data from Garmin 18X 5Hz in Windows:
+  Connect the USB port of the serial usb adapter to computer.
+  Connect the serial port of the serial usb adapter to the serial port of Garmin GPS.
+  Connect the USB port of Garmin GPS to another port on the computer.
+  
+  Open Putty.
+  
+  Click 'Session' listed under 'Category' section. Go to the right side and select 'Serial' as the connection type.
+  Change the serial line. (to find the using serial line: control panel > hardware and sound > device manager > TCP/IP)
+  Change the speed to one of these speed (9600, 19200, 38400, 57600, 115200). The one we used is the speed of 38400.
+  
+  Click 'Serial'(Connection > SSH > Serial) listed under 'Category' section. 
+  Making sure the 'Data bits', 'Stop bits' and 'Parity' are separately 8, 1, None.
+  
+  Click 'Open'.
